@@ -1,0 +1,83 @@
+RogicCode
+004
+MAIN
+{
+    WHILE    
+    {
+DIRECTION
+ON 1 F 0
+ON 2 F 0
+OFF
+OFF
+    REMOCON8Key    (INPUT_PORT 7)
+    {
+KEY8  1
+DIRECTION
+ON 1 F 15
+ON 2 F 15
+OFF
+OFF
+    }
+    REMOCON8Key    (INPUT_PORT 7)
+    {
+KEY8  2
+DIRECTION
+ON 1 B 15
+ON 2 B 15
+OFF
+OFF
+    }
+    REMOCON8Key    (INPUT_PORT 7)
+    {
+KEY8  3
+DIRECTION
+ON 1 B 15
+ON 2 F 15
+OFF
+OFF
+    }
+    REMOCON8Key    (INPUT_PORT 7)
+    {
+KEY8  4
+DIRECTION
+ON 1 F 15
+ON 2 B 15
+OFF
+OFF
+    }
+    REMOCON8Key    (INPUT_PORT 7)
+    {
+KEY8  5
+SERVO
+ON 1 0
+OFF
+OFF
+OFF
+OFF
+OFF
+OFF
+OFF
+DELAY    0.8
+SERVO
+ON 1 214
+OFF
+OFF
+OFF
+OFF
+OFF
+OFF
+OFF
+DELAY    0.8
+SERVO
+ON 1 107
+OFF
+OFF
+OFF
+OFF
+OFF
+OFF
+OFF
+    }
+    }
+
+}
